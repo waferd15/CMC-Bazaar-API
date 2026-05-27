@@ -1,4 +1,4 @@
-console.log("Hi :D");
+console.log("123");
 
 const API_KEY = "5fceb806-bc20-4fa1-807e-0570fad6062f";
 
