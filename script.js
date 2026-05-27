@@ -1,4 +1,4 @@
-console.log("SCRIPT UPDATED");
+console.log("Hi :D");
 
 const API_KEY = "5fceb806-bc20-4fa1-807e-0570fad6062f";
 
@@ -10,11 +10,11 @@ const ITEMS = [
 
 function getPrediction(sellPrice, weeklyAvg, buyVol, sellVol) {
   if (sellPrice < weeklyAvg && sellVol <= buyVol) {
-    return "Price might go up";
+    return "Price might rise";
   }
 
   if (sellVol > buyVol) {
-    return "Price might go down";
+    return "Price might dip";
   }
 
   return "Stable";
