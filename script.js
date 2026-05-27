@@ -37,7 +37,7 @@ function loadData() {
 
     container.appendChild(card);
 
-    fetch(`https://api.craftersmc.net/v1/skyblock/bazaar/${item.id}/details`, {
+  fetch(`https://cmc-bazaar-api.vercel.app/api/bazaar?item=${item.id}`), {
       headers: {
         "X-API-Key": API_KEY,
         "Accept": "application/json"
